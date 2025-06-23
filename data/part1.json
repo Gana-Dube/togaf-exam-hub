@@ -38,7 +38,7 @@
       "number": 5,
       "text": "What can architects present to stakeholders to extract hidden agendas, principles, and requirements that could impact the final Target Architecture?",
       "image": null,
-      "correctAnswer": "Architecture Views and Architecture Viewpoints | Alternatives and Trade-offs"
+      "correctAnswer": "Architecture Views and Architecture Viewpoints"
     },
     {
       "id": "p1_q006",
