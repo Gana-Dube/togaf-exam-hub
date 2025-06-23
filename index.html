@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGAF Exam Study Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TOGAF Exam Study Hub</h1>
+            <p class="subtitle">Master TOGAF Enterprise Architecture with Confidence</p>
+            <div class="nav-links">
+                <button class="nav-btn" onclick="loadExam('part1')">Part 1 - Foundation (40 Questions)</button>
+                <button class="nav-btn part2" onclick="loadExam('part2')">Part 2 - Practitioner (8 Questions)</button>
+            </div>
+        </header>
+
+        <div id="home-view">
+            <div class="exam-container">
+                <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Welcome to Your TOGAF Study Platform</h2>
+                <p style="text-align: center; color: #666; font-size: 1.1rem; margin-bottom: 30px;">
+                    Select an exam part above to begin studying. Questions are curated from multiple sources 
+                    to help you focus on the most important topics.
+                </p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                    <div style="background: linear-gradient(45deg, #ff6b6b, #ee5a52); color: white; padding: 30px; border-radius: 15px; text-align: center;">
+                        <h3>Part 1 - Foundation</h3>
+                        <p style="margin: 15px 0;">40 comprehensive questions covering TOGAF fundamentals, ADM phases, and core concepts.</p>
+                        <button class="nav-btn" onclick="loadExam('part1')" style="background: rgba(255,255,255,0.2); margin-top: 10px;">Start Part 1</button>
+                    </div>
+                    
+                    <div style="background: linear-gradient(45deg, #4ecdc4, #44a08d); color: white; padding: 30px; border-radius: 15px; text-align: center;">
+                        <h3>Part 2 - Practitioner</h3>
+                        <p style="margin: 15px 0;">8 scenario-based questions testing practical application of TOGAF principles.</p>
+                        <button class="nav-btn part2" onclick="loadExam('part2')" style="background: rgba(255,255,255,0.2); margin-top: 10px;">Start Part 2</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="exam-view" style="display: none;">
+            <div class="stats-panel">
+                <button class="back-btn" onclick="showHome()">← Back to Home</button>
+                <div class="stat-item">
+                    <span class="stat-number" id="total-questions">0</span>
+                    <span class="stat-label">Questions</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="with-images">0</span>
+                    <span class="stat-label">With Images</span>
+                </div>
+                <div class="stat-item">
+                    <button class="toggle-all-btn" id="toggle-all-answers" onclick="toggleAllAnswers()">
+                        <span id="toggle-all-text">Hide All Answers</span>
+                        <iconify-icon icon="tdesign:look-around-filled" width="24" height="24" id="toggle-all-icon"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+            <div id="questions-container"></div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
