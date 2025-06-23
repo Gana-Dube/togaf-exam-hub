@@ -1,7 +1,7 @@
 {
   "title": "TOGAF Part 1 - Foundation Exam",
   "description": "40 questions covering TOGAF fundamentals, ADM phases, and core concepts",
-  "totalQuestions": 80,
+  "totalQuestions": 89,
   "passingScore": 60,
   "timeLimit": 60,
   "questions": [
@@ -127,548 +127,506 @@
     {
       "id": "p1_q018",
       "number": 18,
-      "text": "Complete the sentence. When considering agile development, Architecture to Support Portfolio will identify what products the Enterprise needs, the boundary of the products, and what constraints a product owner has; this defines the Enterprise's",
-      "image": null,
-      "correctAnswer": "backlog"
-    },
-    {
-      "id": "p1_q019",
-      "number": 19,
-      "text": "Complete the sentence. The four purposes that typically frame the planning horizon, depth and breadth of an Architecture Project, and the contents of the EA Repository are Strategy, Portfolio,",
+      "text": "Complete the sentence.\nThe four purposes that typically frame the planning horizon, depth and breadth of an Architecture Project, and the contents of the EA Repository are Strategy, Portfolio,",
       "image": null,
       "correctAnswer": "Segment, and End-to-end Target Architecture."
     },
     {
-      "id": "p1_q020",
-      "number": 20,
+      "id": "p1_q019",
+      "number": 19,
       "text": "What is present in all phases within the ADM and should be identified, classified and mitigated before starting a transformation effort?",
       "image": null,
       "correctAnswer": "Risk"
     },
     {
-      "id": "p1_q021",
-      "number": 21,
+      "id": "p1_q020",
+      "number": 20,
       "text": "Which of the following statements about architecture partitioning is correct?",
       "image": null,
       "correctAnswer": "Partitions are used to simplify the management of the Enterprise Architecture."
     },
     {
-      "id": "p1_q022",
-      "number": 22,
-      "text": "Which of the following best describes a purpose of the Gap Analysis technique?",
-      "image": null,
-      "correctAnswer": "To identify missing functions"
-    },
-    {
-      "id": "p1_q023",
-      "number": 23,
+      "id": "p1_q021",
+      "number": 21,
       "text": "Complete the sentence Business Transformation Readiness Assessment is_________________.",
       "image": null,
       "correctAnswer": "a joint effort between corporate staff lines of business and IT planners"
     },
     {
-      "id": "p1_q024",
-      "number": 24,
+      "id": "p1_q022",
+      "number": 22,
       "text": "Complete the following sentence. In the ADM, documents which are under development and have not undergone any formal review and approval process are called______ Documents which have been reviewed and approved are called ______",
       "image": null,
       "correctAnswer": "'draft' - 'approved'"
     },
     {
-      "id": "p1_q025",
-      "number": 25,
+      "id": "p1_q023",
+      "number": 23,
       "text": "What are the four architecture domains that the TOGAF standard deals with?",
       "image": null,
       "correctAnswer": "Business, Data, Application, Technology"
     },
     {
-      "id": "p1_q026",
-      "number": 26,
+      "id": "p1_q024",
+      "number": 24,
       "text": "Which of the following are interests important to the stakeholders in a system?",
       "image": null,
       "correctAnswer": "Concerns"
     },
     {
-      "id": "p1_q027",
-      "number": 27,
+      "id": "p1_q025",
+      "number": 25,
       "text": "What is defined as the effect of uncertainty on objectives?",
       "image": null,
       "correctAnswer": "Risk"
     },
     {
-      "id": "p1_q028",
-      "number": 28,
-      "text": "What is an objective | purpose of the ADM Preliminary Phase?",
-      "image": null,
-      "correctAnswer": "To select and implement tools to support the Architecture Capability | Developing an Enterprise Architecture Capability."
-    },
-    {
-      "id": "p1_q029",
-      "number": 29,
+      "id": "p1_q026",
+      "number": 26,
       "text": "The _____________ ensures that a project transitioning into implementation also smoothly transitions into appropriate Architecture Governance.",
       "image": null,
       "correctAnswer": "Implementation Governance Model"
     },
     {
-      "id": "p1_q030",
-      "number": 30,
+      "id": "p1_q027",
+      "number": 27,
       "text": "What are the four dimensions used to scope an architecture?",
       "image": null,
       "correctAnswer": "Breadth, Depth, Time Period, Architecture Domains"
     },
     {
-      "id": "p1_q031",
-      "number": 31,
+      "id": "p1_q028",
+      "number": 28,
       "text": "Which section of the TOGAF template for Architecture Principles should highlight the business benefits of adhering to the principle?",
       "image": null,
       "correctAnswer": "Rationale"
     },
     {
-      "id": "p1_q032",
-      "number": 32,
+      "id": "p1_q029",
+      "number": 29,
       "text": "Which statement best describes iteration and the ADM?",
       "image": null,
       "correctAnswer": "The ADM is iterative, over the whole process, between phases, and within phases."
     },
     {
-      "id": "p1_q033",
-      "number": 33,
+      "id": "p1_q030",
+      "number": 30,
       "text": "Consider the following descriptions of deliverables consumed and produced across the TOGAF ADM cycle. Which deliverables match these descriptions?",
       "image": "descriptions_of_deliverables.png",
       "correctAnswer": "1 Architecture Principles - 2 Architecture Requirements Specification - 3 Request for Architecture Work - 4 Statement of Architecture Work"
     },
     {
-      "id": "p1_q034",
-      "number": 34,
+      "id": "p1_q031",
+      "number": 31,
       "text": "Which of the following best summarizes the purpose of Enterprise Architecture?",
       "image": null,
       "correctAnswer": "Guiding effective change."
     },
     {
-      "id": "p1_q035",
-      "number": 35,
+      "id": "p1_q032",
+      "number": 32,
       "text": "Consider the diagram showing a classification model for Architecture Landscapes. What are the items labelled A, B and C?",
       "image": "classification_model.png",
       "correctAnswer": "A-Capability Architecture, B-Segment Architecture, C-Enterprise Strategic Architecture"
     },
     {
-      "id": "p1_q027",
-      "number": 27,
+      "id": "p1_q033",
+      "number": 33,
       "text": "Consider the following ADM phases objectives.",
       "image": "adm_phase_objectives_roadmap.png",
       "correctAnswer": "1F-2F-3E-4G"
     },
     {
-      "id": "p1_q028",
-      "number": 28,
+      "id": "p1_q034",
+      "number": 34,
       "text": "Refer to the table below:\nWhich ADM Phase does this describe?",
       "image": "phase_table_output.png",
       "correctAnswer": "Phase B"
     },
     {
-      "id": "p1_q029",
-      "number": 29,
+      "id": "p1_q035",
+      "number": 35,
       "text": "Consider the following statement.\nProjects may cycle between ADM phases, in planned cycles covering multiple phases.\nWhat does it illustrate?",
       "image": null,
       "correctAnswer": "Iteration"
     },
     {
-      "id": "p1_q030",
-      "number": 30,
+      "id": "p1_q036",
+      "number": 36,
       "text": "Consider the graphic illustrating a method supporting the TOGAF ADM.\nWhat does the method help identify?",
       "image": "method_supporting_adm.png",
       "correctAnswer": "Alternative Target Architectures"
     },
     {
-      "id": "p1_q031",
-      "number": 31,
+      "id": "p1_q037",
+      "number": 37,
       "text": "Complete the sentence.\nWhen considering agile development, Architecture to Support Project will identify what products the Enterprise needs, the boundary of the products, and what constraints a product owner has; this defines the Enterprise's ______________.",
       "image": null,
       "correctAnswer": "backlog"
     },
     {
-      "id": "p1_q032",
-      "number": 32,
+      "id": "p1_q038",
+      "number": 38,
       "text": "Which of the following does the TOGAF standard describe as a package of functionality defined to meet business needs across an organization?",
       "image": null,
       "correctAnswer": "A building block"
     },
     {
-      "id": "p1_q033",
-      "number": 33,
+      "id": "p1_q039",
+      "number": 39,
       "text": "Which of the following supports the need to govern Enterprise Architecture?",
       "image": null,
       "correctAnswer": "Best practice governance enables the organization to control value realization."
     },
     {
-      "id": "p1_q034",
-      "number": 34,
+      "id": "p1_q040",
+      "number": 40,
       "text": "Complete the following sentence.\n______________ provide context for architecture work, by describing the needs and ways of working employed by the enterprise.",
       "image": null,
       "correctAnswer": "Business principles, business goals, and business drivers"
     },
     {
-      "id": "p1_q035",
-      "number": 35,
+      "id": "p1_q041",
+      "number": 41,
       "text": "Which of the following best describes the purpose of the Gap Analysis technique?",
       "image": null,
-      "correctAnswer": "To identify items omitted from the Target Architecture"
+      "correctAnswer": "To identify items omitted from the Target Architectur | To identify missing functions | identify potential missing or overlapping functions"
     },
     {
-      "id": "p1_q036",
-      "number": 36,
-      "text": "In the ADM, documents which are under development and have not undergone any formal review and approval process are called _________.\nDocuments which have been reviewed and approved are called ___________.",
-      "image": null,
-      "correctAnswer": "\"draft\" - \"approved\""
-    },
-    {
-      "id": "p1_q037",
-      "number": 37,
+      "id": "p1_q042",
+      "number": 42,
       "text": "Consider the following statements:\n1. A whole corporation or a division of a corporation\n2. A government agency or a single government department\n3. Partnerships and alliances of businesses working together, such as a consortium or supply chain\nWhat are those examples of according to the TOGAF Standard?",
       "image": null,
       "correctAnswer": "Enterprises"
     },
     {
-      "id": "p1_q038",
-      "number": 38,
+      "id": "p1_q043",
+      "number": 43,
       "text": "Which of the following best describes the TOGAF Architecture Development Method?",
       "image": null,
       "correctAnswer": "A method for developing and managing the lifecycle of an Enterprise Architecture"
     },
     {
-      "id": "p1_q039",
-      "number": 39,
+      "id": "p1_q044",
+      "number": 44,
       "text": "Complete the sentence.\nActions arising from the Business Transformation Readiness Assessment technique should be incorporated in the _____________.",
       "image": null,
       "correctAnswer": "Implementation and Migration Plan"
     },
     {
-      "id": "p1_q040",
-      "number": 40,
+      "id": "p1_q045",
+      "number": 45,
       "text": "Consider the following statement.\nAccording to the TOGAF standard, a governed approach of a particular deliverable will ensure adherence to the principles, standards, and requirements of the existing or developing architectures.\nWhich deliverable does this refer to?",
       "image": null,
       "correctAnswer": "An Architecture Contract"
     },
     {
-      "id": "p1_q041",
-      "number": 41,
+      "id": "p1_q046",
+      "number": 46,
       "text": "Which of the following describes a purpose of Architecture Principles?",
       "image": null,
       "correctAnswer": "To provide a better understanding about the enterprise's culture and values"
     },
     {
-      "id": "p1_q042",
-      "number": 42,
+      "id": "p1_q047",
+      "number": 47,
       "text": "What are the following activities part of?\n1. Initial risk assessment \n2. Risk mitigation and residual risk assessment\n3. Risk monitoring\n4. Risk identification\n5. Risk Classification",
       "image": null,
       "correctAnswer": "Risk Management"
     },
     {
-      "id": "p1_q043",
-      "number": 43,
+      "id": "p1_q048",
+      "number": 48,
       "text": "Which of the following statements about architecture partitioning is correct?",
       "image": null,
       "correctAnswer": "Partitions are used to simplify the management of the Enterprise Architecture."
     },
     {
-      "id": "p1_q044",
-      "number": 44,
+      "id": "p1_q049",
+      "number": 49,
       "text": "Consider the following statements.\n1. All processes, decision-making, and mechanisms used will be established so as to minimize or avoid potential conflicts of interest.\n2. More effective strategic decision-making will be made by C-Level executives and business leaders.\n3. All actions implemented and their decision support will be available for inspection by authorized organization and provider parties.\n4. Digital Transformation and operations will be more effective and efficient.\nWhich statements highlight the value and necessity for Architecture Governance to be adopted within organizations?",
       "image": null,
       "correctAnswer": "1 & 3"
     },
     {
-      "id": "p1_q045",
-      "number": 45,
+      "id": "p1_q050",
+      "number": 50,
       "text": "Which of the following does the TOGAF standard define as the representation of a related set of concerns?",
       "image": null,
       "correctAnswer": "Architecture view"
     },
     {
-      "id": "p1_q046",
-      "number": 46,
+      "id": "p1_q051",
+      "number": 51,
       "text": "Which of the following best describes purpose of the Business Scenarios?",
       "image": null,
       "correctAnswer": "To identify and understand requirements"
     },
     {
-      "id": "p1_q047",
-      "number": 47,
+      "id": "p1_q052",
+      "number": 52,
       "text": "What should be put in place through organization structures, roles, responsibilities, skills and processes to carry out architectural activity effectively?",
       "image": null,
       "correctAnswer": "An EA Capability"
     },
     {
-      "id": "p1_q048",
-      "number": 48,
+      "id": "p1_q053",
+      "number": 53,
       "text": "Which of the following describes how the Enterprise Continuum is used when developing an enterprise architecture?",
       "image": null,
       "correctAnswer": "To classify architecture and solution assets"
     },
     {
-      "id": "p1_q049",
-      "number": 49,
+      "id": "p1_q054",
+      "number": 54,
       "text": "Which of the following best describes the Standards Library?",
       "image": null,
       "correctAnswer": "A repository area holding specications to which architectures must conform."
     },
     {
-      "id": "p1_q050",
-      "number": 50,
+      "id": "p1_q055",
+      "number": 55,
       "text": "Which of the following best describes the need for the ADM process to be governed?",
       "image": null,
       "correctAnswer": "To verify that the method is being applied correctly."
     },
     {
-      "id": "p1_q051",
-      "number": 51,
+      "id": "p1_q056",
+      "number": 56,
       "text": "Consider the image showing basic architectural concepts. What are items A and B?",
       "image": "basic_architectural_concepts.png",
       "correctAnswer": " A-Architecture Viewpoint, B-Architecture View"
     },
     {
-      "id": "p1_q052",
-      "number": 52,
+      "id": "p1_q057",
+      "number": 57,
       "text": "When considering the scope of an architecture, what dimension considers to what level of detail the architecting effort should go?",
       "image": null,
       "correctAnswer": "Depth"
     },
     {
-      "id": "p1_q053",
-      "number": 53,
+      "id": "p1_q058",
+      "number": 58,
       "text": "Which section of the TOGAF template for Architecture Principles should highlight the requirements for carrying out the principle?",
       "image": null,
       "correctAnswer": "Implications"
     },
     {
-      "id": "p1_q054",
-      "number": 54,
+      "id": "p1_q059",
+      "number": 59,
       "text": "Which of the following is a responsibility of an Architecture Board?",
       "image": null,
       "correctAnswer": "Achieving consistency between sub-architectures"
     },
     {
-      "id": "p1_q055",
-      "number": 55,
+      "id": "p1_q060",
+      "number": 60,
       "text": "Consider the image showing basic architectural concepts. What are items A and B?",
       "image": "basic_architectural_concepts_2.png",
       "correctAnswer": " A-Stakeholder, B-Concern"
     },
     {
-      "id": "p1_q056",
-      "number": 56,
+      "id": "p1_q061",
+      "number": 61,
       "text": "You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a multinational energy company. The company is committed to becoming a net-zero emissions energy business by 2050. To achieve this, the company is focusing on shifting to renewable energy production and adopting eco-friendly practices.\nThe EA team, which reports to the Chief Technical Officer (CTO), has been tasked with overseeing the transformation to make the company more effective through acquisitions. The company plans to fully integrate these acquisitions, including merging operations and systems.\nTo address the integration challenges, the EA team leader wants to know how to manage risks and ensure that the company succeeds with the proposed changes. Based on the TOGAF Standard, which of the following is the best answer?",
       "image": null,
       "correctAnswer": "The EA team should create a Business Scenario to fully describe the business problem that is being addressed by the transformation. Once requirements are identified, they should be evaluated in terms of risks. Any residual risks should be escalated to the Architecture Board."
     },
     {
-      "id": "p1_q057",
-      "number": 57,
+      "id": "p1_q062",
+      "number": 62,
       "text": "Complete the sentence The Architecture Landscape is divided into levels known as__________________________.",
       "image": null,
       "correctAnswer": "Segment Strategic and Capability Architectures"
     },
     {
-      "id": "p1_q058",
-      "number": 58,
+      "id": "p1_q063",
+      "number": 63,
       "text": "Refer to the table below:, Which ADM Phase does this describe?",
       "image": "table_gap_adm.jpg",
       "correctAnswer": "Phase G"
     },
     {
-      "id": "p1_q059",
-      "number": 59,
+      "id": "p1_q064",
+      "number": 64,
       "text": "Complete the sentence A set of architecture principles that cover every situation perceived meets the recommended criteria of_______________",
       "image": null,
       "correctAnswer": "completeness"
     },
     {
-      "id": "p1_q060",
-      "number": 60,
+      "id": "p1_q065",
+      "number": 65,
       "text": "Exhibit. Consider the illustration showing an architecture development cycle Which description matches the phase of the ADM labeled as item 1?",
       "image": "exhibit_illustration_cycle.png",
       "correctAnswer": "Operates the process of managing architecture requirements"
     },
     {
-      "id": "p1_q061",
-      "number": 61,
-      "text": "What is presented as ”striking a balance between positive and negative outcomes resulting from the realization of either opportunities or threats?",
+      "id": "p1_q066",
+      "number": 66,
+      "text": "What is presented as \u201dstriking a balance between positive and negative outcomes resulting from the realization of either opportunities or threats?",
       "image": null,
       "correctAnswer": "Risk Management"
     },
     {
-      "id": "p1_q062",
-      "number": 62,
+      "id": "p1_q067",
+      "number": 67,
       "text": "Which of the following are the four purposes that typically frame the planning horizon, depth and breadth of an Architecture Project, and the contents of the EA Repository-?",
       "image": null,
       "correctAnswer": "Strategy Portfolio Project Solution Delivery"
     },
     {
-      "id": "p1_q063",
-      "number": 63,
-      "text": "Complete the following sentence. In the ADM documents which are under development and have not undergone any formal review and approval process are_______________.",
-      "image": null,
-      "correctAnswer": "Called ‘’draft’’"
-    },
-    {
-      "id": "p1_q064",
-      "number": 64,
+      "id": "p1_q068",
+      "number": 68,
       "text": "Complete the sentence The TOGAF standard covers the development of four architecture domains. Business. Data, Technology and__________________.",
       "image": null,
       "correctAnswer": "Application"
     },
     {
-      "id": "p1_q065",
-      "number": 65,
+      "id": "p1_q069",
+      "number": 69,
       "text": "What is an objective of the ADM Implementation Governance Phase?",
       "image": null,
       "correctAnswer": "To ensure conformance for the target architecture"
     },
     {
-      "id": "p1_q066",
-      "number": 66,
+      "id": "p1_q070",
+      "number": 70,
       "text": "In which part of the ADM cycle do building block gaps become associated with work packages that will address the gaps?",
       "image": null,
       "correctAnswer": "Phase E"
     },
     {
-      "id": "p1_q067",
-      "number": 67,
+      "id": "p1_q071",
+      "number": 71,
       "text": "Presenting different_________and_________to stakeholders helps architects to extract hidden agendas principles and requirements that could impact the final Target Architecture",
       "image": null,
       "correctAnswer": "Architecture Views Architecture Viewpoints"
     },
     {
-      "id": "p1_q068",
-      "number": 68,
+      "id": "p1_q072",
+      "number": 72,
       "text": "What provides context for architecture work, by describing the needs and ways of working employed by the enterprise?",
       "image": null,
       "correctAnswer": "Business principles business goals, and business drivers"
     },
     {
-      "id": "p1_q069",
-      "number": 69,
+      "id": "p1_q073",
+      "number": 73,
       "text": "Consider the following statement:\nAccording to the TOGAF Standard a governed approach of a particular deliverable will ensure a system of continuous monitoring to check integrity changes decision-making and audit of all architecture-related activities",
       "image": null,
       "correctAnswer": "An Architecture Contract"
     },
     {
-      "id": "p1_q070",
-      "number": 70,
+      "id": "p1_q074",
+      "number": 74,
       "text": "Complete the sentence A business scenario describes______________",
       "image": null,
       "correctAnswer": "business and technology environment in which those problems occur"
     },
     {
-      "id": "p1_q071",
-      "number": 71,
+      "id": "p1_q075",
+      "number": 75,
       "text": "Partnerships and alliances of businesses working together such as a consortium or supply chain",
       "image": null,
       "correctAnswer": "Enterprises"
     },
     {
-      "id": "p1_q072",
-      "number": 72,
-      "text": "Complete the sentence When considering agile development Architecture to Support Project will identify what products the Enterprise needs the boundary of the products and what constraints a product owner has. this defines the Enterprise's__________.",
-      "image": null,
-      "correctAnswer": "backlog"
-    },
-    {
-      "id": "p1_q073",
-      "number": 73,
+      "id": "p1_q076",
+      "number": 76,
       "text": "Which of the following is included as part of Architecture Governance1?",
       "image": null,
       "correctAnswer": "Ensuring compliance with internal and external standards and regulatory obligations"
     },
     {
-      "id": "p1_q074",
-      "number": 74,
+      "id": "p1_q077",
+      "number": 77,
       "text": "Which of the following statements about architecture partitioning are correct*?\n\n1 Partitions are used to simplify the management of the Enterprise Architecture\n\n2 Partitions are equivalent to architecture levels\n\n3 Partitions enable different teams to work on different element of the architecture at the same time.\n\n4 Partitions reflect the organization's structure",
       "image": null,
       "correctAnswer": "1&3"
     },
     {
-      "id": "p1_q075",
-      "number": 75,
+      "id": "p1_q078",
+      "number": 78,
       "text": "Which section of the TOGAF template for Architecture Principles should describe the relationship to other principles?",
       "image": null,
       "correctAnswer": "Rationale"
     },
     {
-      "id": "p1_q076",
-      "number": 76,
+      "id": "p1_q079",
+      "number": 79,
       "text": "Consider the following statement:\nSeparate projects may operate their own ADM cycles concurrently, with relationships between the different projects\nWhat does it illustrate?",
       "image": null,
       "correctAnswer": "Iteration"
     },
     {
-      "id": "p1_q077",
-      "number": 77,
+      "id": "p1_q080",
+      "number": 80,
       "text": "Which of the following is the ability to develop use and sustain the architecture of a particular enterprise using architecture to govern change?",
       "image": null,
       "correctAnswer": "An EA Capability"
     },
     {
-      "id": "p1_q078",
-      "number": 78,
+      "id": "p1_q081",
+      "number": 81,
       "text": "Complete the sentence The purpose of Enterprise Architecture is to______________.",
       "image": null,
       "correctAnswer": "guide effective change"
     },
     {
-      "id": "p1_q079",
-      "number": 79,
+      "id": "p1_q082",
+      "number": 82,
       "text": "Which of the following best describes the purpose of the Architecture Roadmap?",
       "image": null,
       "correctAnswer": "It lists work packages on a timeline showing progress towards the Target Architecture"
     },
     {
-      "id": "p1_q080",
-      "number": 80,
-      "text": "Complete the sentence. The key purpose of Gap Analysis is to _____",
-      "image": null,
-      "correctAnswer": "identify potential missing or overlapping functions"
-    },
-    {
-      "id": "p1_q081",
-      "number": 81,
+      "id": "p1_q083",
+      "number": 83,
       "text": "Consider the following chart: Which important concept for Enterprise Architecture Practitioners does it illustrate?",
       "image": "chart_phase_adm.png",
       "correctAnswer": "ADM phases must be run in a sequenced approach to produce the Architecture."
     },
     {
-      "id": "p1_q082",
-      "number": 82,
+      "id": "p1_q084",
+      "number": 84,
       "text": "Complete the sentence. Actions arising from the Business Transformation Readiness Assessment technique should be incorporated in the",
       "image": null,
       "correctAnswer": "Implementation and Migration Plan"
     },
     {
-      "id": "p1_q083",
-      "number": 83,
+      "id": "p1_q085",
+      "number": 85,
       "text": "Consider the following ADM phases objectives.",
       "image": "adm_phases_objectives_2.png",
       "correctAnswer": "1C-2B-3A-4D"
     },
     {
-      "id": "p1_q084",
-      "number": 84,
+      "id": "p1_q086",
+      "number": 86,
       "text": "In which phase of the ADM cycle do building blocks become implementation-specific?",
       "image": null,
       "correctAnswer": "Phase E"
     },
     {
-      "id": "p1_q085",
-      "number": 85,
+      "id": "p1_q087",
+      "number": 87,
       "text": "Consider the following statements:\n 1. Groups of countries, governments, or governmental organizations (such as militaries) working together to create common or shareable deliverables or infrastructures\n2. Partnerships and alliances of businesses working together, such as a consortium or supply chain. \nWhat are those examples of according to the TOGAF Standard?",
       "image": null,
       "correctAnswer": "Architectures Scopes"
     },
     {
-      "id": "p1_q086",
-      "number": 86,
+      "id": "p1_q088",
+      "number": 88,
       "text": "Consider the following descriptions of deliverables consumed and produced across the TOGAF ADM cycle.\nWhich deliverables match these descriptions?",
       "image": "adm_phases_objectives_3.png",
       "correctAnswer": "1 Architecture Principles -2 Architecture Contracts - 3 Architecture Requirements Specification-4 Request for Architecture Work"
+    },
+    {
+      "id": "p1_q089",
+      "number": 89,
+      "text": "Consider the following statements:\n1. Each contracted party is required to act responsibly to the organization and its stakeholders.\n2. All decisions taken, processes used, and their implementation will not be allowed to create unfair advantage to any one particular party.\n3. Digital Transformation and operations will be more effective and efficient.\n4. Strategic decision-making by C-Level executives and business leaders will be more effective.\nWhich statements highlight the value and necessity for Architecture Governance to be adopted within organizations?",
+      "image": null,
+      "correctAnswer": "1 & 2"
     }
   ]
 }
