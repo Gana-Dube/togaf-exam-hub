@@ -358,7 +358,7 @@
     {
       "id": "p1_q042",
       "number": 42,
-      "text": "What are the following activities part of?\nInitial risk assessment -\nRisk mitigation and residual risk assessment\nRisk monitoring",
+      "text": "What are the following activities part of?\n1. Initial risk assessment \n2. Risk mitigation and residual risk assessment\n3. Risk monitoring\n4. Risk identification\n5. Risk Classification",
       "image": null,
       "correctAnswer": "Risk Management"
     },
@@ -403,16 +403,14 @@
       "text": "Which of the following describes how the Enterprise Continuum is used when developing an enterprise architecture?",
       "image": null,
       "correctAnswer": "To classify architecture and solution assets"
-    }
-    ,
+    },
     {
       "id": "p1_q049",
       "number": 49,
       "text": "Which of the following best describes the Standards Library?",
       "image": null,
       "correctAnswer": "A repository area holding specications to which architectures must conform."
-    }
-    ,
+    },
     {
       "id": "p1_q050",
       "number": 50,
@@ -440,8 +438,7 @@
       "text": "Which section of the TOGAF template for Architecture Principles should highlight the requirements for carrying out the principle?",
       "image": null,
       "correctAnswer": "Implications"
-    }
-    ,
+    },
     {
       "id": "p1_q054",
       "number": 54,
@@ -475,7 +472,7 @@
       "number": 58,
       "text": "Refer to the table below:, Which ADM Phase does this describe?",
       "image": "table_gap_adm.jpg",
-      "correctAnswer": "Phase F"
+      "correctAnswer": "Phase G"
     },
     {
       "id": "p1_q059",
@@ -529,7 +526,7 @@
     {
       "id": "p1_q066",
       "number": 66,
-      "text": "In which part of the ADM cycle do building block gaps become associated with work packages that",
+      "text": "In which part of the ADM cycle do building block gaps become associated with work packages that will address the gaps?",
       "image": null,
       "correctAnswer": "Phase E"
     },
@@ -644,8 +641,34 @@
       "text": "Complete the sentence. Actions arising from the Business Transformation Readiness Assessment technique should be incorporated in the",
       "image": null,
       "correctAnswer": "Implementation and Migration Plan"
+    },
+    {
+      "id": "p1_q083",
+      "number": 83,
+      "text": "Consider the following ADM phases objectives.",
+      "image": "adm_phases_objectives_2.png",
+      "correctAnswer": "1C-2B-3A-4D"
+    },
+    {
+      "id": "p1_q084",
+      "number": 84,
+      "text": "In which phase of the ADM cycle do building blocks become implementation-specific?",
+      "image": null,
+      "correctAnswer": "Phase E"
+    },
+    {
+      "id": "p1_q085",
+      "number": 85,
+      "text": "Consider the following statements:\n 1. Groups of countries, governments, or governmental organizations (such as militaries) working together to create common or shareable deliverables or infrastructures\n2. Partnerships and alliances of businesses working together, such as a consortium or supply chain. \nWhat are those examples of according to the TOGAF Standard?",
+      "image": null,
+      "correctAnswer": "Architectures Scopes"
+    },
+    {
+      "id": "p1_q086",
+      "number": 86,
+      "text": "Consider the following descriptions of deliverables consumed and produced across the TOGAF ADM cycle.\nWhich deliverables match these descriptions?",
+      "image": "adm_phases_objectives_3.png",
+      "correctAnswer": "1 Architecture Principles -2 Architecture Contracts - 3 Architecture Requirements Specification-4 Request for Architecture Work"
     }
   ]
 }
-
-
