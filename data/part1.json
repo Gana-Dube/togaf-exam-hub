@@ -624,9 +624,254 @@
     {
       "id": "p1_q089",
       "number": 89,
-      "text": "Which ADM phase focuses on defining the problem to be solved, identifying the stakeholders, their concerns, and requirements?",
+      "text": "Which of the following best describes why the TOGAF Standard is suitable as a framework for Enterprise Architecture?",
+      "image": null,
+      "correctAnswer": "It de-risks a technically complex process"
+    },
+    {
+      "id": "p1_q090",
+      "number": 90,
+      "text": "Complete the sentence: Three of the four architecture domains that are commonly accepted as subsets of an overall Enterprise Architecture are \u2026",
+      "image": null,
+      "correctAnswer": "Data, Application, Technology."
+    },
+    {
+      "id": "p1_q091",
+      "number": 91,
+      "text": "Which architecture abstraction level answers why an enterprise undertakes architecture work, and what is the scope of work?",
+      "image": null,
+      "correctAnswer": "Contextual"
+    },
+    {
+      "id": "p1_q092",
+      "number": 92,
+      "text": "Which of the following is a structural framework that allows an enterprise to distinguish between different types of architectural assets?",
+      "image": null,
+      "correctAnswer": "Architecture Repository"
+    },
+    {
+      "id": "p1_q093",
+      "number": 93,
+      "text": "Complete the sentence: The Enterprise Continuum provides a classification for \u2026",
+      "image": null,
+      "correctAnswer": "architecture and solution artifacts"
+    },
+    {
+      "id": "p1_q094",
+      "number": 94,
+      "text": "Which does the TOGAF Standard define as a collection of organizations that have common goals?",
+      "image": null,
+      "correctAnswer": "An enterprise"
+    },
+    {
+      "id": "p1_q095",
+      "number": 95,
+      "text": "Complete the sentence: The Enterprise Metamodel defines \u2026",
+      "image": null,
+      "correctAnswer": "the types of entities used in models describing the enterprise."
+    },
+    {
+      "id": "p1_q096",
+      "number": 96,
+      "text": "Complete the sentence: Risk management is \u2026",
+      "image": null,
+      "correctAnswer": "striking a balance between positive and negative outcomes."
+    },
+    {
+      "id": "p1_q097",
+      "number": 97,
+      "text": "Which of the following is defined as the highest level (typically) of description of an organization and typically covers all missions and functions?",
+      "image": null,
+      "correctAnswer": "Enterprise"
+    },
+    {
+      "id": "p1_q098",
+      "number": 98,
+      "text": "Which of the following is defined as a specification that has been formally reviewed and agreed upon, that thereafter serves as the basis for further development?",
+      "image": null,
+      "correctAnswer": "Baseline"
+    },
+    {
+      "id": "p1_q099",
+      "number": 99,
+      "text": "Which of the following is defined as the fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution?",
+      "image": null,
+      "correctAnswer": "Architecture"
+    },
+    {
+      "id": "p1_q100",
+      "number": 100,
+      "text": "What is defined as the statement of difference between two states?",
+      "image": null,
+      "correctAnswer": "Gap"
+    },
+    {
+      "id": "p1_q101",
+      "number": 101,
+      "text": "Which of the ADM phases finalizes a detailed plan for moving from the Baseline Architecture to the Target Architecture?",
+      "image": null,
+      "correctAnswer": "Phase F: Migration Planning"
+    },
+    {
+      "id": "p1_q102",
+      "number": 102,
+      "text": "Which of the ADM phases includes customization of the TOGAF framework and definition of Architecture Principles?",
+      "image": null,
+      "correctAnswer": "Preliminary Phase"
+    },
+    {
+      "id": "p1_q103",
+      "number": 103,
+      "text": "Consider the TOGAF ADM graphic of the architecture development cycle:\nSelect the correct phase names corresponding to Labels 1, 2, and 3.",
+      "image": "adm_graphic_cycle.png",
+      "correctAnswer": "1-Implementation Governance, 2-Requirements Management, 3-Opportunities and Solutions"
+    },
+    {
+      "id": "p1_q104",
+      "number": 104,
+      "text": "Refer to Figure 7. Which of the following best describes the ADM graphic?",
+      "image": "adm_graphic_cycle.png",
+      "correctAnswer": "A representation showing information flows"
+    },
+    {
+      "id": "p1_q105",
+      "number": 105,
+      "text": "Why are architecture alternatives and trade-off needed?",
+      "image": null,
+      "correctAnswer": "To present different possibilities with their trade-offs to stakeholders"
+    },
+    {
+      "id": "p1_q106",
+      "number": 106,
+      "text": "Which concept does the TOGAF Standard provide to govern the Target Architecture?",
+      "image": null,
+      "correctAnswer": "Architecture Project"
+    },
+    {
+      "id": "p1_q107",
+      "number": 107,
+      "text": "Which of the following is an objective of Phase A?",
+      "image": null,
+      "correctAnswer": "To develop a high-level vision of the business value to be delivered"
+    },
+    {
+      "id": "p1_q108",
+      "number": 108,
+      "text": "Consider the following ADM phases objectives:\nWhich phase does each objective match?",
+      "image": "adm_phase_governance,png",
+      "correctAnswer": "1H, 2G, 3F, 4H"
+    },
+    {
+      "id": "p1_q109",
+      "number": 109,
+      "text": "\"Refer to the following table:\\Which ADM phase(s) does this describe?\"",
+      "image": "phase_domain_outcomes.png",
+      "correctAnswer": "Phases B, C, and D."
+    },
+    {
+      "id": "p1_q110",
+      "number": 110,
+      "text": "Which ADM phase aligns with Agile Software Development?",
+      "image": null,
+      "correctAnswer": "Phase G"
+    },
+    {
+      "id": "p1_q111",
+      "number": 111,
+      "text": "Which of the following is a purpose of Architecture Principles?",
+      "image": null,
+      "correctAnswer": "Enabling decision-making"
+    },
+    {
+      "id": "p1_q112",
+      "number": 112,
+      "text": "Which part of the TOGAF template for defining Architecture Principles should highlight the business benefits of adhering to the principle?",
+      "image": null,
+      "correctAnswer": "Rationale"
+    },
+    {
+      "id": "p1_q113",
+      "number": 113,
+      "text": "Which of the following statements best describes the Business Transformation Readiness Assessment technique?",
+      "image": null,
+      "correctAnswer": "A technique used to understand the readiness of an organization to accept change."
+    },
+    {
+      "id": "p1_q114",
+      "number": 114,
+      "text": "Consider the following diagram:\nWhat is Item 1?",
+      "image": "adm_guidelines.png",
+      "correctAnswer": "TOGAF Series Guides"
+    },
+    {
+      "id": "p1_q115",
+      "number": 115,
+      "text": "Where are risks identified as part of the initial Business Transformation Readiness Assesment?",
       "image": null,
       "correctAnswer": "Phase A"
+    },
+    {
+      "id": "p1_q116",
+      "number": 116,
+      "text": "Complete the sentence: The levels of the Architecture Landscape are Strategic, Segment, and \u2026",
+      "image": null,
+      "correctAnswer": "Capability"
+    },
+    {
+      "id": "p1_q117",
+      "number": 117,
+      "text": "Why does partitioning help simplify the development of an Enterprise Architecture?",
+      "image": null,
+      "correctAnswer": "To enable different teams to work on different elements of an architecture."
+    },
+    {
+      "id": "p1_q118",
+      "number": 118,
+      "text": "Complete the sentence: The four purposes of Enterprise Architecture that can be used to frame the planning horizon, depth, and breadth of an Architecture Project, and the contents of the Enterprise Architecture Repository, are Architecture to Support Strategy, Portfolio, Project, and \u2026",
+      "image": null,
+      "correctAnswer": "Solution Delivery"
+    },
+    {
+      "id": "p1_q119",
+      "number": 119,
+      "text": "What is the practice by which Enterprise Architectures are managed and controlled at an enterprise-wide level?",
+      "image": null,
+      "correctAnswer": "Architecture Governance"
+    },
+    {
+      "id": "p1_q120",
+      "number": 120,
+      "text": "When considering Architecture Governance, what is the benefit that derives from transparency?",
+      "image": null,
+      "correctAnswer": "Actions implemented and their decision support will be available for inspection"
+    },
+    {
+      "id": "p1_q121",
+      "number": 121,
+      "text": "Complete the sentence by selecting the applicable pair of words: A(n) \u2026 is a representation of a system from the perspective of a(n) \u2026",
+      "image": null,
+      "correctAnswer": "architecture view, related set of concerns."
+    },
+    {
+      "id": "p1_q122",
+      "number": 122,
+      "text": "Which of the following best describes the purpose of the Request for Architecture Work?",
+      "image": null,
+      "correctAnswer": "It is sent from the sponsor and triggers the start of an architecture development cycle."
+    },
+    {
+      "id": "p1_q123",
+      "number": 123,
+      "text": "Which of the following is created in Phase A with the purpose to agree at the outset what the desired outcome should be for the architecture, so that architects can then focus on the detail necessary to validate feasibility?",
+      "image": null,
+      "correctAnswer": "Architecture Vision"
+    },
+    {
+      "id": "p1_q124",
+      "number": 124,
+      "text": "Which of the following is a package of functionality defined to meet business needs across an organization?",
+      "image": null,
+      "correctAnswer": "Building block"
     }
   ]
 }
