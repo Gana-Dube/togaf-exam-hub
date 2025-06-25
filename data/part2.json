@@ -68,11 +68,7 @@
       "image": null,
       "correctAnswer": "You review the contracts ensuring that they address project objectives, effectiveness metrics, acceptance criteria, and risk management. Third-party contracts must be legally enforceable.\nYou recommend a schedule of compliance reviews at key points in the implementation process. \nYou recommend that the Architecture Board reviews all deviations from the Architecture Contract and considers whether to grant a dispensation to allow the process to be customized for local needs.",
       "keyThemes": [
-        "Business Scenarios - Understand current systems and integrations",
-        "Stakeholder Analysis - Plant managers' security/reliability concerns",
-        "Requirements Identification - High-level stakeholder requirements",
-        "Baseline vs Target Architecture - Define current and future states"
-      ]
+        ]
     },
     {
       "id": "p2_q007",
@@ -191,10 +187,11 @@
     {
       "id": "p2_q020",
       "number": 19,
-      "text": "Scenario You are working as an Enterprise Architect within a large manufacturing company. The company has multiple divisions located worldwide. After a recent study, senior management is concerned about the impact of the company's multiple data centers and duplication of applications on business efficiency. To address this concern, a strategic architecture has been defined; it will help improve the ability to meet customer demand and improve the efficiency of operations. The strategic architecture involves the consolidation of multiples application programs that are currently used in different divisions and putting them all onto a cloud-based solution instead. Each division has completed the Architecture Definition documentation to meet its own specific operational requirements. The enterprise architects have analyzed the corporate changes and implementation constraints. A consolidated gap analysis has been completed. Based on its results, the architects have reviewed the requirements, dependencies, and interoperability requirements needed to integrate the cloud-based solution. The architects have completed the Business Transformation Readiness Assessment. Based on all these factors, they have produced arisk assessment. They have also completed the draft Implementation and Migration Plan, the draft Architecture Roadmap, and the Capability Assessment deliverables Due to the risks of changing from the current environment, the decision has been taken that a gradual approach is needed to implement the target architecture. It will likely take a few years to complete the whole implementation process. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAE standard for its architecture development method. The EA practice is engaged throushout all the divisions, with implementation governance assigned to a business line. In addition to providing guidance on using architecture frameworks. including business planning, project/portfolio management. and onerations management. the FA nrogram is sponsored by the Chief Information Officer (CIO). You have been asked to decide on the next steps for the migration planning. Based on the TOGAF standard. which of the following is the best answer?",
+      "text": "<b>Scenario</b>\n<p style='text-align:justify;'>You are working as an Enterprise Architect within a large manufacturing company. The company has multiple divisions located worldwide. After a recent study, senior management is concerned about the impact of the company's multiple data centers and duplication of applications on business efficiency. To address this concern, a strategic architecture has been defined; it will help improve the ability to meet customer demand and improve the efficiency of operations. The strategic architecture involves the consolidation of multiples application programs that are currently used in different divisions and putting them all onto a cloud-based solution instead. Each division has completed the Architecture Definition documentation to meet its own specific operational requirements. The enterprise architects have analyzed the corporate changes and implementation constraints. A consolidated gap analysis has been completed. Based on its results, the architects have reviewed the requirements, dependencies, and interoperability requirements needed to integrate the cloud-based solution. The architects have completed the Business Transformation Readiness Assessment. Based on all these factors, they have produced arisk assessment. They have also completed the draft Implementation and Migration Plan, the draft Architecture Roadmap, and the Capability Assessment deliverables Due to the risks of changing from the current environment, the decision has been taken that a gradual approach is needed to implement the target architecture. It will likely take a few years to complete the whole implementation process. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAE standard for its architecture development method. The EA practice is engaged throushout all the divisions, with implementation governance assigned to a business line. In addition to providing guidance on using architecture frameworks. including business planning, project/portfolio management. and onerations management. the FA nrogram is sponsored by the Chief Information Officer (CIO). You have been asked to decide on the next steps for the migration planning. Based on the TOGAF standard. which of the following is the best answer?</p>",
       "image": null,
-      "correctAnswer": "You examine how the Implementation and Migration Plan affects the other frameworks being used in the organization. You coordinate the planning with the business planning, project/portfolio management, and operations management frameworks. You assign a business value to each project considering the available resources and how well they align with the strategy. You then update the architecture roadmap and the Implementation and Migration Plan.",
-      "keyThemes": []
+      "correctAnswer": "You examine how the Implementation and Migration Plan affects the other frameworks being used in the organization.\nYou coordinate the planning with the business planning, project/portfolio management, and operations management frameworks.\nYou assign a business value to each project considering the available resources and how well they align with the strategy.\nYou then update the architecture roadmap and the Implementation and Migration Plan.",
+      "keyThemes": [
+      ]
     },
     {
       "id": "p2_q021",
@@ -202,7 +199,8 @@
       "text": "Please read this scenario prior to answering the question. You are the Lead Enterprise Architect at a major agribusiness company. The company's main annual harvest is lentils, a highly valued food grown worldwide. The lentil parasite, broomrape, has been an increasing concern for many years and is now becoming resistant to chemical controls. In addition, changes in climate favor the propagation and growth of the parasite. As a result, the parasite cannot realistically be exterminated, and it has become pandemic, with lentil yields falling globally. The CEO appreciates the seriousness of the situation and has set out a change in direction that is effectively a new business for the company. There are opportunities for new products and new markets. The company will use the fields for another harvest and will cease to process third-party lentils. Thus, the target market will change, and the end-products will be different and more varied. This is a major decision and the CEO has stated a desire to repurpose rather than replace so as to manage the risks and limit the costs. The company has a mature Enterprise Architecture practice based in its headquarters and uses the TOGAF standard as the method and guiding framework. The practice has an established Architecture Capability and uses iteration for architecture development. The CIO is the sponsor of the activity. The CIO has assigned the Enterprise Architecture team to this activity. At this stage there is no shared vision or requirements. Refer to the scenario. You have been asked to propose the best approach for architecture development to realize the CEO's change in direction for the company. Based on the TOGAF standard, which of the following is the best answer?",
       "image": null,
       "correctAnswer": "You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
-      "keyThemes": []
+      "keyThemes": [
+        ]
     },
     {
       "id": "p2_q022",
@@ -226,7 +224,12 @@
       "text": "You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large government agency with multiple divisions. The agency has a well-established EA practice and follows the TOGAF standard as its method for architecture development. The government has mandated that the agency prepare for an 'AI-first' world.The agency wants to determine the impact and role of AI in its future services. The CIO has approved a Request for Architecture Work to explore the use of AI in services. Some leaders are concerned about reliance on AI, security, and employees need to acquire new skills.The EA team leader seeks suggestions on managing the risks associated with a new architecture for the AI-first project. Based on the TOGAF standard, which of the following is the best answer?",
       "image": null,
       "correctAnswer": "You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
-      "keyThemes": []
+      "keyThemes": [
+        "Stakeholder Analysis - Document positions, concerns, and cultural factors",
+        "Architecture Vision - Define concerns and views for each group",
+        "Risk Requirements - Record in Architecture Requirements Specification",
+        "Regular Assessment - Check requirements through feedback loops"
+      ]
     },
     {
       "id": "p2_q024",
@@ -234,7 +237,12 @@
       "text": "You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a multinational energy company. The company is committed to becoming a net-zero emissions energy business by 2050. To achieve this, the company is focusing on shifting to renewable energy production and adopting eco-friendly practices.\nThe EA team, which reports to the Chief Technical Officer (CTO), has been tasked with overseeing the transformation to make the company more effective through acquisitions. The company plans to fully integrate these acquisitions, including merging operations and systems.\nTo address the integration challenges, the EA team leader wants to know how to manage risks and ensure that the company succeeds with the proposed changes. Based on the TOGAF Standard, which of the following is the best answer?",
       "image": null,
       "correctAnswer": "The EA team should create a Business Scenario to fully describe the business problem that is being addressed by the transformation. Once requirements are identified, they should be evaluated in terms of risks. Any residual risks should be escalated to the Architecture Board.",
-      "keyThemes": []
+      "keyThemes": [
+        "Business Scenarios - Fully describe the business problem",
+        "Requirements Evaluation - Assess requirements in terms of risks",
+        "Risk Escalation - Escalate residual risks to Architecture Board",
+        "Integration Challenges - Address acquisition integration complexity"
+      ]
     }
   ]
 }

@@ -143,11 +143,15 @@ h1 {
 }
 
 .question-image {
-    max-width: 100%;
+    max-height: 500px;
+    width: auto;
     height: auto;
     border-radius: 10px;
-    margin: 20px 0;
+    margin: 20px auto;  /* Added auto for left and right to center */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
 }
 
 .options {
@@ -241,6 +245,42 @@ h1 {
 .stat-item {
     display: inline-block;
     margin: 0 20px;
+}
+
+.image-filter-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 5px;
+}
+
+.image-filter-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-filter-btn.active {
+    background: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.image-filter-btn .stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+    margin: 0;
 }
 
 .stat-number {

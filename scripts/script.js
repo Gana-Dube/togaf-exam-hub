@@ -1,5 +1,6 @@
 let currentExamData = null;
 let allAnswersVisible = true; // Track global state
+let imageFilterActive = false; // Track image filter state
 
 function showHome() {
     document.getElementById('home-view').style.display = 'block';
@@ -16,6 +17,7 @@ async function loadExam(examType) {
         
         // Reset global state when loading new exam
         allAnswersVisible = true;
+        imageFilterActive = false;
         updateToggleAllButton();
         
         updateStats();
@@ -38,8 +40,17 @@ function renderQuestions() {
 
     // Check if this is Part 2 exam
     const isPart2 = currentExamData.title && currentExamData.title.includes('Part 2');
+    
+    // Filter questions based on image filter state
+    let questionsToShow = currentExamData.questions;
+    if (imageFilterActive) {
+        questionsToShow = currentExamData.questions.filter(question => question.image);
+    }
 
-    currentExamData.questions.forEach((question, index) => {
+    questionsToShow.forEach((question, index) => {
+        // Use original index for IDs to maintain consistency
+        const originalIndex = currentExamData.questions.indexOf(question);
+        
         const questionCard = document.createElement('div');
         questionCard.className = isPart2 ? 'question-card part2-card' : 'question-card';
         
@@ -55,7 +66,7 @@ function renderQuestions() {
         if (isPart2 && hasKeyThemes) {
             const themesListHTML = question.keyThemes.map(theme => `<li>${theme}</li>`).join('');
             keyThemesHTML = `
-                <div class="key-themes-section" id="themes-section-${index}" ${!allAnswersVisible ? 'class="themes-hidden"' : ''}>
+                <div class="key-themes-section" id="themes-section-${originalIndex}" ${!allAnswersVisible ? 'class="themes-hidden"' : ''}>
                     <div class="themes-header">
                         <iconify-icon icon="material-symbols:lightbulb" width="20" height="20"></iconify-icon>
                         <span class="themes-label">Key Themes:</span>
@@ -72,8 +83,8 @@ function renderQuestions() {
                 <div class="question-number">
                     Question ${question.number}
                 </div>
-                <button class="answer-toggle-btn" onclick="toggleQuestionAnswer(${index})" id="toggle-btn-${index}">
-                    <iconify-icon icon="bxs:down-arrow" width="24" height="24" id="toggle-icon-${index}"></iconify-icon>
+                <button class="answer-toggle-btn" onclick="toggleQuestionAnswer(${originalIndex})" id="toggle-btn-${originalIndex}">
+                    <iconify-icon icon="bxs:down-arrow" width="24" height="24" id="toggle-icon-${originalIndex}"></iconify-icon>
                 </button>
             </div>
             
@@ -81,7 +92,7 @@ function renderQuestions() {
             
             ${question.image ? `<img src="static/images/${question.image}" alt="Question diagram" class="question-image">` : ''}
             
-            <div class="answer-section" id="answer-section-${index}" ${!allAnswersVisible ? 'class="answer-hidden"' : ''}>
+            <div class="answer-section" id="answer-section-${originalIndex}" ${!allAnswersVisible ? 'class="answer-hidden"' : ''}>
                 <span class="answer-label">Answer:</span>
                 <span class="correct-answer">${formattedAnswerText}</span>
             </div>
@@ -92,7 +103,7 @@ function renderQuestions() {
         container.appendChild(questionCard);
         
         // Set initial arrow state based on global visibility
-        updateQuestionArrow(index, allAnswersVisible);
+        updateQuestionArrow(originalIndex, allAnswersVisible);
     });
 }
 
@@ -174,6 +185,26 @@ function updateQuestionArrow(questionIndex, isVisible) {
             toggleIcon.setAttribute('icon', 'bxs:up-arrow');
         }
     }
+}
+
+function toggleImageFilter() {
+    imageFilterActive = !imageFilterActive;
+    
+    const filterBtn = document.getElementById('image-filter-btn');
+    const filterIcon = document.getElementById('image-filter-icon');
+    
+    if (imageFilterActive) {
+        // Show only questions with images
+        filterBtn.classList.add('active');
+        filterIcon.setAttribute('icon', 'streamline-flex:pictures-folder-memories-solid');
+    } else {
+        // Show all questions
+        filterBtn.classList.remove('active');
+        filterIcon.setAttribute('icon', 'streamline-flex:pictures-folder-memories');
+    }
+    
+    // Re-render questions with filter applied
+    renderQuestions();
 }
 
 function updateToggleAllButton() {
