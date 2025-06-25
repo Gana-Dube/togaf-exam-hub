@@ -220,6 +220,27 @@ function updateToggleAllButton() {
     }
 }
 
+function openTipsModal() {
+    const modal = document.getElementById('tips-modal');
+    modal.classList.add('show');
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTipsModal() {
+    const modal = document.getElementById('tips-modal');
+    modal.classList.remove('show');
+    // Restore body scroll
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeTipsModal();
+    }
+});
+
 function toggleOption(element) {
     // Simple visual feedback for user interaction
     element.style.transform = 'scale(0.98)';

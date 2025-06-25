@@ -62,8 +62,76 @@
                         <iconify-icon icon="tdesign:look-around-filled" width="24" height="24" id="toggle-all-icon"></iconify-icon>
                     </button>
                 </div>
+                <div class="stat-item">
+                    <button class="tips-btn" id="tips-btn" onclick="openTipsModal()">
+                        <iconify-icon icon="solar:lightbulb-bolt-bold" width="24" height="24"></iconify-icon>
+                        <span class="tips-label">Study Tips</span>
+                    </button>
+                </div>
             </div>
             <div id="questions-container"></div>
+        </div>
+    </div>
+
+    <!-- Tips Modal -->
+    <div id="tips-modal" class="modal-overlay" onclick="closeTipsModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3>
+                    <iconify-icon icon="solar:lightbulb-bolt-bold" width="28" height="28"></iconify-icon>
+                    TOGAF Study Tips
+                </h3>
+                <button class="modal-close-btn" onclick="closeTipsModal()">
+                    <iconify-icon icon="material-symbols:close" width="24" height="24"></iconify-icon>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="tips-intro">Master TOGAF with these essential strategies:</p>
+                <ul class="tips-list">
+                    <li>
+                        <iconify-icon icon="material-symbols:group" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Always start with Stakeholder Analysis</strong> - Identify who has concerns
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:visibility" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Use Architecture Vision</strong> - Document and communicate the direction
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:warning" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Apply Risk Assessment</strong> - Identify, classify, and mitigate risks
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:view-module" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Leverage Architecture Views</strong> - Present alternatives and trade-offs
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:gavel" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Ensure Governance</strong> - Use Architecture Board and compliance reviews
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:stairs" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Plan Incrementally</strong> - Phase implementation to manage complexity
+                        </div>
+                    </li>
+                    <li>
+                        <iconify-icon icon="material-symbols:hub" width="20" height="20"></iconify-icon>
+                        <div>
+                            <strong>Coordinate Frameworks</strong> - Align with business planning and portfolio management
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
