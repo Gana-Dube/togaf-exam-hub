@@ -253,7 +253,7 @@
     {
       "id": "p1_q036",
       "number": 36,
-      "text": "Complete the sentence.\nWhen considering agile development, Architecture to Support Project will identify what products the Enterprise needs, the boundary of the products, and what constraints a product owner has; this defines the Enterprise's ______________.",
+      "text": "<b>Complete the sentence.</b>\nWhen considering agile development, Architecture to Support Project will identify what products the Enterprise needs, the boundary of the products, and what constraints a product owner has; this defines the Enterprise's ______________.",
       "image": null,
       "correctAnswer": "backlog"
     },
@@ -442,7 +442,7 @@
     {
       "id": "p1_q063",
       "number": 63,
-      "text": "Exhibit. Consider the illustration showing an architecture development cycle Which description matches the phase of the ADM labeled as item 1?",
+      "text": "<b>Exhibit.</b>\nConsider the illustration showing an architecture development cycle.\nWhich description matches the phase of the ADM labeled as item 1?",
       "image": "exhibit_illustration_cycle.png",
       "correctAnswer": "Operates the process of managing architecture requirements"
     },
