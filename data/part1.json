@@ -1,7 +1,7 @@
 {
   "title": "TOGAF Part 1 - Foundation Exam",
   "description": "40 questions covering TOGAF fundamentals, ADM phases, and core concepts",
-  "totalQuestions": 117,
+  "totalQuestions": 116,
   "passingScore": 60,
   "timeLimit": 60,
   "questions": [
@@ -15,65 +15,65 @@
     {
       "id": "p1_q002",
       "number": 2,
+      "text": "Which of the following best describes purpose of the Business Scenarios?",
+      "image": null,
+      "correctAnswer": "To identify and understand requirements"
+    },
+    {
+      "id": "p1_q003",
+      "number": 3,
       "text": "Which of the following best describes the class of information known as the Reference Library within the Architecture Repository?",
       "image": null,
       "correctAnswer": "Guidelines and templates used to create new architectures"
     },
     {
-      "id": "p1_q003",
-      "number": 3,
+      "id": "p1_q004",
+      "number": 4,
       "text": "Consider the following ADM phases objectives. Which phase does each objective match?",
       "image": "adm_phases_objectives_1.jpg",
       "correctAnswer": "1C-2B-3A-4C"
     },
     {
-      "id": "p1_q004",
-      "number": 4,
+      "id": "p1_q005",
+      "number": 5,
       "text": "Complete the sentence The purpose of the Preliminary Phase is to_____________.",
       "image": null,
       "correctAnswer": "architect an Enterprise Architecture Capability"
     },
     {
-      "id": "p1_q005",
-      "number": 5,
+      "id": "p1_q006",
+      "number": 6,
       "text": "1. What can architects present to stakeholders to extract hidden agendas, principles, and requirements that could impact the final Target Architecture?\n\n2. Presenting different_________and_________to stakeholders helps architects to extract hidden agendas principles and requirements that could impact the final Target Architecture",
       "image": null,
       "correctAnswer": "Architecture Views and Architecture Viewpoints"
     },
     {
-      "id": "p1_q006",
-      "number": 6,
+      "id": "p1_q007",
+      "number": 7,
       "text": "What is used to structure architectural information in an orderly way so that it can be processed to meet stakeholder needs?",
       "image": null,
       "correctAnswer": "Content Metamodel"
     },
     {
-      "id": "p1_q007",
-      "number": 7,
+      "id": "p1_q008",
+      "number": 8,
       "text": "Which of the following best describes the Standards Library?",
       "image": null,
       "correctAnswer": "A repository area holding specifications to which architectures must conform"
     },
     {
-      "id": "p1_q008",
-      "number": 8,
+      "id": "p1_q009",
+      "number": 9,
       "text": "Which of the following is a responsibility of an Architecture Board?",
       "image": null,
       "correctAnswer": "Establishing targets for re-use of components"
     },
     {
-      "id": "p1_q009",
-      "number": 9,
+      "id": "p1_q010",
+      "number": 10,
       "text": "In which phase(s) of the ADM would you deal with the actions resulting from a transformation readiness assessment?",
       "image": null,
       "correctAnswer": "Phase E and F"
-    },
-    {
-      "id": "p1_q010",
-      "number": 10,
-      "text": "Which of the following best describes purpose of the Business Scenarios?",
-      "image": null,
-      "correctAnswer": "To identify and understand requirements"
     },
     {
       "id": "p1_q011",
