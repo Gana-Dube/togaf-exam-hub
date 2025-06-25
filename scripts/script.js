@@ -36,13 +36,36 @@ function renderQuestions() {
     const container = document.getElementById('questions-container');
     container.innerHTML = '';
 
+    // Check if this is Part 2 exam
+    const isPart2 = currentExamData.title && currentExamData.title.includes('Part 2');
+
     currentExamData.questions.forEach((question, index) => {
         const questionCard = document.createElement('div');
-        questionCard.className = 'question-card';
+        questionCard.className = isPart2 ? 'question-card part2-card' : 'question-card';
         
         // Convert \n to <br> tags for proper line breaks
         const formattedQuestionText = question.text.replace(/\n/g, '<br>');
         const formattedAnswerText = question.correctAnswer.replace(/\n/g, '<br>');
+        
+        // Check if has key themes
+        const hasKeyThemes = question.keyThemes && question.keyThemes.length > 0;
+        
+        // Build key themes HTML if available
+        let keyThemesHTML = '';
+        if (isPart2 && hasKeyThemes) {
+            const themesListHTML = question.keyThemes.map(theme => `<li>${theme}</li>`).join('');
+            keyThemesHTML = `
+                <div class="key-themes-section" id="themes-section-${index}" ${!allAnswersVisible ? 'class="themes-hidden"' : ''}>
+                    <div class="themes-header">
+                        <iconify-icon icon="material-symbols:lightbulb" width="20" height="20"></iconify-icon>
+                        <span class="themes-label">Key Themes:</span>
+                    </div>
+                    <ul class="themes-list">
+                        ${themesListHTML}
+                    </ul>
+                </div>
+            `;
+        }
         
         questionCard.innerHTML = `
             <div class="question-header">
@@ -62,6 +85,8 @@ function renderQuestions() {
                 <span class="answer-label">Answer:</span>
                 <span class="correct-answer">${formattedAnswerText}</span>
             </div>
+            
+            ${keyThemesHTML}
         `;
         
         container.appendChild(questionCard);
@@ -73,19 +98,32 @@ function renderQuestions() {
 
 function toggleQuestionAnswer(questionIndex) {
     const answerSection = document.getElementById(`answer-section-${questionIndex}`);
+    const themesSection = document.getElementById(`themes-section-${questionIndex}`);
     const toggleIcon = document.getElementById(`toggle-icon-${questionIndex}`);
+    
+    if (!answerSection) return; // Safety check
     
     // Check current state
     const isCurrentlyVisible = !answerSection.classList.contains('answer-hidden');
     
     if (isCurrentlyVisible) {
-        // Hide the answer
+        // Hide the answer and themes
         answerSection.classList.add('answer-hidden');
-        toggleIcon.setAttribute('icon', 'bxs:up-arrow');
+        if (themesSection) {
+            themesSection.classList.add('themes-hidden');
+        }
+        if (toggleIcon) {
+            toggleIcon.setAttribute('icon', 'bxs:up-arrow');
+        }
     } else {
-        // Show the answer
+        // Show the answer and themes
         answerSection.classList.remove('answer-hidden');
-        toggleIcon.setAttribute('icon', 'bxs:down-arrow');
+        if (themesSection) {
+            themesSection.classList.remove('themes-hidden');
+        }
+        if (toggleIcon) {
+            toggleIcon.setAttribute('icon', 'bxs:down-arrow');
+        }
     }
 }
 
@@ -97,13 +135,26 @@ function toggleAllAnswers() {
     
     for (let i = 0; i < totalQuestions; i++) {
         const answerSection = document.getElementById(`answer-section-${i}`);
+        const themesSection = document.getElementById(`themes-section-${i}`);
         
-        if (allAnswersVisible) {
-            // Show all answers
-            answerSection.classList.remove('answer-hidden');
-        } else {
-            // Hide all answers
-            answerSection.classList.add('answer-hidden');
+        if (answerSection) {
+            if (allAnswersVisible) {
+                // Show all answers
+                answerSection.classList.remove('answer-hidden');
+            } else {
+                // Hide all answers
+                answerSection.classList.add('answer-hidden');
+            }
+        }
+        
+        if (themesSection) {
+            if (allAnswersVisible) {
+                // Show all themes
+                themesSection.classList.remove('themes-hidden');
+            } else {
+                // Hide all themes
+                themesSection.classList.add('themes-hidden');
+            }
         }
         
         // Update individual arrow icons
