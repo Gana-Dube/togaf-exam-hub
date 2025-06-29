@@ -15,7 +15,7 @@ import json
 import argparse
 import hashlib
 from pathlib import Path
-from typing import Dict, List, Tuple, Set
+
 from difflib import SequenceMatcher
 from collections import defaultdict, Counter
 import re
